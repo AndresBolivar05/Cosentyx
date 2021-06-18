@@ -19,7 +19,8 @@ xhr.open('POST', 'dist/models/model-registerMonth.php', true);
 xhr.onload = function () {
     if (this.status === 200) {
         var respuesta = JSON.parse(xhr.responseText);
-        if (!respuesta == '') {
+        console.log(respuesta);
+        if (respuesta != '') {
             let meses = ['', "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
             let pin = 0;
             let cuenta_pin = 0;
@@ -135,7 +136,7 @@ function consultData() {
     xhr.onload = function () {
         if (this.status === 200) {
             var respuesta = JSON.parse(xhr.responseText);
-            if (!respuesta == '') {
+            if (respuesta != '') {
                 $(applications).empty();
                 $(applicationsPro).empty();
                 $(countApli).empty();

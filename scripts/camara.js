@@ -139,15 +139,15 @@ function take_snapshot() {
   $('#btnSiguiente').css('pointer-events', 'all');
   $('#btnSiguiente').css('opacity', '8');
 
-  var element = document.getElementById("botonreset");
-  element.classList.toggle("displayhide");
+  var elementReset = document.getElementById("botonreset");
+  elementReset.classList.toggle("displayhide");
 
-  var element = document.getElementById("results");
-  element.classList.toggle("displayhide");
+  var elementResult = document.getElementById("results");
+  elementResult.classList.toggle("displayhide");
 
 
-  var element = document.getElementById("my_camera");
-  element.classList.toggle("displayhide");
+  var elementMycamera = document.getElementById("my_camera");
+  elementMycamera.classList.toggle("displayhide");
 
   // play sound effect
   shutter.play();

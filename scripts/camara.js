@@ -107,8 +107,8 @@ function tomarotra() {
   var elementResult = document.getElementById("results");
   elementResult.classList.toggle("displayhide");
 
-  var elementMycamera = document.getElementById("botonreset");
-  elementMycamera.classList.toggle("displayhide");
+  var elementReset = document.getElementById("botonreset");
+  elementReset.classList.toggle("displayhide");
 
   Webcam.set({
     width: 340,

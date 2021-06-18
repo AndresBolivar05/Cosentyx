@@ -23,7 +23,7 @@ if(pin_user === ''){
             if (respuesta.numApplications > 0) {
                 let meses = ['', "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
                 let i = 1;
-                for(i = 1; i < respuesta.numApplications; i++){
+                for(let i = 1; i < respuesta.numApplications; i++){
                     let date = respuesta[`date${i}`];
                     let sep  = date.split('-');
                     let mes_name = meses[parseInt(sep[1])];

@@ -14,7 +14,7 @@ $(document).ready(function(){
         if (this.status === 200) {
             var respuesta = JSON.parse(xhr.responseText);
             if (respuesta.numApplications > 1) {
-                for(i = 1; i < respuesta.numApplications; i++){
+                for(let i = 1; i < respuesta.numApplications; i++){
                     let dateBD = respuesta[`date${i}`];
                     let sep  = dateBD.split('-');
                     let mes_name = meses[parseInt(sep[1])];

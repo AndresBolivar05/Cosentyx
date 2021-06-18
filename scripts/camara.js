@@ -101,14 +101,14 @@ function tomarotra() {
   $("#botonTwo").css('display', 'block');
   $('#btnSiguiente').css('pointer-events', 'none');
   $('#btnSiguiente').css('opacity', '.5');
-  var camara = document.getElementById("my_camera");
-  camara.classList.toggle("displayhide");
+  var elementMycamera = document.getElementById("my_camera");
+  elementMycamera.classList.toggle("displayhide");
 
-  var camara = document.getElementById("results");
-  camara.classList.toggle("displayhide");
+  var elementResult = document.getElementById("results");
+  elementResult.classList.toggle("displayhide");
 
-  var camara = document.getElementById("botonreset");
-  camara.classList.toggle("displayhide");
+  var elementMycamera = document.getElementById("botonreset");
+  elementMycamera.classList.toggle("displayhide");
 
   Webcam.set({
     width: 340,

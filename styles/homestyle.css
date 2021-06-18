@@ -1,0 +1,139 @@
+@font-face {
+      font-family: Flama;
+      src: url(../assets/fonts/Flama-Basic.otf)
+    }
+    
+    body,
+    html {
+      height: 100%
+    }
+    
+    body {
+      font-family: Flama;
+      background-image: url(../assets/images/fondo-1.png);
+      background-repeat: no-repeat;
+      background-size: cover
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20%;
+      color: #0077c3
+    }
+    
+    .container img {
+      width: 90%
+    }
+    
+    .subContainter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 35%;
+}
+
+.anotherclass{
+  margin-top: 50px;
+}
+    
+    .subContainter h2 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5%;
+    }
+    
+    .checkers {
+      margin-top: 20px;
+      margin-bottom: 20px
+    }
+    
+    .checkers div {
+      display: flex;
+      align-items: center
+    }
+    
+    .subContainter span {
+      font-size: 15px
+    }
+    
+   .subContainter p {
+    font-weight: 500;
+    margin-bottom: 5%;
+    font-size: 15.5px;
+}
+    .enterInput {
+      border-radius: 8px;
+      border: none;
+      color: #0077c3;
+      width: 90%;
+      height: 30px;
+      padding: 10px;
+      font-size: 20px;
+      background-color: #dbd9d9
+    }
+    
+    .enterButton {
+      background-color: #0077c3;
+      color: #fff;
+      padding: 5px 25px 5px 25px;
+      margin-top: 20px;
+      width: 100%;
+      font-weight: 200;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 8px
+    }
+    
+
+    .containerr{
+      min-height: 100%;
+      margin-bottom: -40px;
+      padding-bottom: 40px;
+    }
+
+    .footerr {
+      width: 92%;
+      position: relative;
+      /* bottom: 0; */
+      color: #fff;
+      text-align: justify;
+      margin: 0 auto;
+      /* padding: 10px */
+    }
+    
+    @media (max-width:360px) {
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10%;
+        color: #0077c3
+      }
+      .subContainter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 38vh;
+        text-align: center;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        margin-top: 25%;
+      }
+      .footer {
+        margin-top: 10%;
+        color: #fff;
+        font-size: 10px;
+        text-align: justify
+      }
+    }

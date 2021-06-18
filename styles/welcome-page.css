@@ -1,0 +1,155 @@
+@font-face {
+  font-family: Flama;
+  src: url("../assets/fonts/Flama-Basic.otf");
+}
+
+body {
+  font-family: Flama;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #ab1862;
+  font-size: 15px;
+  width: 100%;
+  padding-bottom: 200px;
+}
+
+.container h1 {
+  margin: 10px 0 10px 0;
+}
+
+.header {
+  width: 100%;
+  background-image: url("../assets/images/header-cosentyx.png");
+  background-size: cover;
+  padding: 30px 0 30px 0;
+  color: white;
+  font-size: 10px;
+}
+
+.welcomeTitle{
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 0.1px gray;
+  width: 100%;
+}
+
+.stepCard {
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  margin: 10px 0 10px 0;
+  width: 100%;
+}
+
+.stepsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.stepsContainer h5 {
+  margin: 10px 0 10px 0;
+}
+
+.stepsContainer div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.stepsContainer div img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.stepsContainer div p {
+  text-align: left;
+}
+
+/* footer */
+
+.footer-arrows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(161, 161, 161, 0.7);
+}
+
+.footer-arrows a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ab1862;
+  padding: 0px 20px 0px 20px;
+}
+
+.footer-arrows a img {
+  width: 50%;
+}
+
+.footer-image {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-image img {
+  width: 100%;
+}
+
+.footer-legend {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  font-size: 9px;
+  color: #0077c3;
+  border-top: solid 0.5px gray;
+}
+
+.footer-legend img {
+  height: 30px;
+  width: auto;
+}
+
+@media (max-width: 360px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ab1862;
+    font-size: 15px;
+    font-size: 10px;
+  }
+}
+
+@media (max-height: 736px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ab1862;
+    font-size: 15px;
+    font-size: 11px;
+  }
+}

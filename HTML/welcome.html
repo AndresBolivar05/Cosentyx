@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.82.0">
+  <title>Cosentyx</title>
+  <link href="./styles/style.css" rel="stylesheet" type="text/css">
+  <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+</head>
+
+<body>
+  <main>
+    <nav class="navbar navbar-dark header-bg" aria-label="First navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation" style="border:0"><span class="navbar-toggler-icon"></span></button> <a class="navbar-brand" href="#">Cosentyx®</a> <span type="" data-bs-toggle="modal" data-bs-target="#modalSoporte"><img class="img-fluid" src="./assets/logos/soporte-logo.png" alt="" style="width:50px"></span>
+        <div class="collapse navbar-collapse" id="navbarsExample01">
+          <ul class="navbar-nav me-auto mb-2 custom-class-nav">
+            <li class="nav-item"><a class="nav-link active linavitem-a" aria-current="page" href="diagnostico.html">Dosis</a></li>
+            <li class="nav-item"><a class="nav-link linavitem-ab" href="historial.html">Historial</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <div class="bg-light p-5-custom">
+        <div class="col-sm-10 mx-auto">
+          <h3 class="text-center welcomeTitle">Siga las instrucciones</h3>
+          <div class="stepsContainer">
+            <div>
+              <div class="stepCard"><img class="img-fluid" src="./assets/logos/camera-logo.png" alt="">
+                <p>Permita que esta aplicación utilice la cámara aceptando la alerta que saldrá en el siguiente paso</p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="stepsContainer">
+            <div>
+              <div class="stepCard"><img class="img-fluid" src="./assets/logos/marker-logo.png" alt="">
+                <p>Con la cámara, apunte al marcador como si le fuera a tomar una foto para empezar la experiencia en realidad aumentada</p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="stepsContainer">
+            <div>
+              <div class="stepCard"><img class="img-fluid" src="./assets/logos/cosentyx-logo.png" alt="">
+                <p>En la pantalla de su teléfono se mostrarán hologramas de los pasos de aplicación, trate de nunca desenfocar el marcador</p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="stepsContainer">
+            <div>
+              <div class="stepCard"><img class="img-fluid" src="./assets/logos/soporte-logo.png" alt="">
+                <p>Contará con un botón de ayuda, este lo enviará a una llamada con una persona que resolverá sus dudas</p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="container">
+            <div class="row">
+              <div class="col- text-center" style="width:50%">
+                <a href="video.html">
+                  <button type="button" class="btn btn-outline-danger"><i class="fas fa-arrow-left"></i> Anterior</button>
+                </a>
+              </div>
+              <div class="col- text-center" style="width:50%">
+                <a href="ar.html">
+                  <button type="button" class="btn btn-outline-danger">Siguiente <i class="fas fa-arrow-right"></i></button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="modal fade" id="modalSoporte" tabindex="-1" aria-labelledby="modalsoporte" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="padding-bottom:0">
+                  <h5 class="modal-title" id="modalsoporte" style="width:100%"><span type="" data-bs-toggle="modal" data-bs-target="#modalSoporte"><img class="img-fluid" src="./assets/logos/soporte-logo.png" alt="" style="width:50px"></span> Linea de soporte</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="padding-top:0;margin-top:-45px;margin-right:-15px"></button>
+                </div>
+                <div class="modal-body" style="font-size:18px;font-weight:600">¿Quiere comunicarse con un representante de Sanitas para resolver cualquier duda?</div>
+                <div class="container" style="text-align:center;padding-bottom:15px">
+                  <button class="btn btn-danger" style="width:90%">Llamar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-danger" style="width:30%"></div><span>Progreso</span></div>
+          <div class="container footer">
+            <div class="row"><img src="./assets/logos/novartis-new-logo-old.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
